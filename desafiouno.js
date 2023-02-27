@@ -39,13 +39,7 @@ class ProductManager {
   }
 }
 
-// Ejemplo de uso
-const manager = new ProductManager([]);
-manager.addProduct("Camiseta", "Camiseta de algodón", 25.99, "img1.jpg", "001", 10);
-manager.addProduct("Pantalón", "Pantalón de mezclilla", 49.99, "img2.jpg", "002", 5);
-console.log(manager.getProducts());
-console.log(manager.getProductById(2));
-console.log(manager.getProductById(3));
+
 
 
 
